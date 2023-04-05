@@ -22,7 +22,7 @@ ul {
     gap: 15px;
 }
 
-.head_link{
+.head_link {
     font-size: 36px;
     font-weight: bold;
     color: #FDD504;
@@ -31,7 +31,8 @@ ul {
 
 }
 
-.head_link:hover, .cart:hover  {
+.head_link:hover,
+.cart:hover {
     color: cadetblue;
 }
 
@@ -43,10 +44,48 @@ ul {
 }
 
 
+h1 {
+    margin: 114px 0 120px;
+    font-size: 58px;
+    text-align: center;
+}
+
+.contact_forms {
+    width: 80%;
+    height: 212px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+}
+
+input {
+    width: 550px;
+    height: 58px;
+    border: none;
+    background-color: #B3E9F5;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
 footer {
     height: 200px;
     background-color: #13345B;
-       
+    display: flex;
+    align-items: center;
+
 }
 
 .social {
@@ -54,7 +93,8 @@ footer {
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
-    
+
+
 }
 
 .social_ico {
@@ -68,4 +108,3 @@ footer {
     font-size: 90px;
     color: blanchedalmond;
 }
-
